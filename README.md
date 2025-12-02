@@ -33,10 +33,11 @@ Download the Acoustic Wonderland Dataset using [this link](https://tinyurl.com/3
 1. ***RGB***: 200 .png files with the following naming convention: {scene_name}_rgb_{location_idx}.png
 2. ***Category***: 200 .npz segmentation maps corresponding to [MP3D](https://github.com/niessner/Matterport) semantic segmentation with the following naming convention: {scene_name}_category_{location_idx}.npz
 3. ***Material Config***: This is folder containing 2,673 subfolder, each represending a material configuration from the Acoustic Wonderland dataset. Each folder contains: 
-    1. ***Material***: .npz material segmentation map where each index corresponds to a material from the Acoustic Wonderland Dataset (more details about ids, names and acoustic coeffiecients can be found in /material_configs). Each file follows:  {scene_name}_{material_config}_material_{location_idx}.npz
+    1. ***Material***: .npz material segmentation map where each index corresponds to a material from the Acoustic Wonderland Dataset (more details about ids, names and acoustic coeffiecients can be found in dataset/material_configs). Each file follows:  {scene_name}_{material_config}_material_{location_idx}.npz
     2. ***Waveform***: .wav audio file with 0.5s at 16kHz sampling rate and corresponds to a matching material file. Each file follows: {scene_name}_{material_config}_ir_{location_idx}.wav
 
 Store this dataset at any location and point to this location during training/testing
+Information about the testing splits, seen/unseen material configurations and acoustic properties can be found in the [dataset](/dataset/) folder.  
 
 ## Code
 
