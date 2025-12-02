@@ -11,6 +11,7 @@ University of Utah
 </p>
 
 Project Page: [https://mahnoor-fatima-saad.github.io/m-capa.html](https://mahnoor-fatima-saad.github.io/m-capa.html)
+Paper: [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/papers/Saad_How_Would_It_Sound_Material-Controlled_Multimodal_Acoustic_Profile_Generation_for_ICCV_2025_paper.pdf)
 
 ## Abstract
 
@@ -44,3 +45,14 @@ Store this dataset at any location and point to this location during training/te
 ###### Testing
 
 
+## Citation
+```
+@InProceedings{Saad_2025_ICCV,
+    author    = {Saad, Mahnoor Fatima and Al-Halah, Ziad},
+    title     = {How Would It Sound? Material-Controlled Multimodal Acoustic Profile Generation for Indoor Scenes},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {12232-12241}
+}
+```
