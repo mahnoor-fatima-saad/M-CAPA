@@ -54,7 +54,7 @@ sbatch run_training.sh
 1. Download model checkpoints. Place model checkpoints in the root of y our parent directory (model checkpoints available upon request, will be adding links soon!)
 2. For each variation of our model you will find *best_checkpoint.pt*, and *config.json*. Please update all paths and information inside each config to point to the relevant storage locations
 ```
-sbatch run_evluation.sh
+sbatch run_evaluation.sh
 ```
 
 
