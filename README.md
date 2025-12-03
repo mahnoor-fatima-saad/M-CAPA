@@ -40,11 +40,25 @@ Store this dataset at any location and point to this location during training/te
 Information about the testing splits, seen/unseen material configurations and acoustic properties can be found in the [dataset](/dataset/) folder.  
 
 ## Code
+Batch scripts for training and testing are available in the */code/batch_scripts/* folder
 
+Model checkpoints can be made available upon request (will be coming soon!)
 
 ###### Training
-###### Testing
+1. Please set all relevant information, paths and variables in the /code/config_training
 
+```
+sbatch run_training.sh
+```
+###### Testing
+1. Download model checkpoints. Place model checkpoints in the root of y our parent directory 
+2. For each variation of our model you will find *best_checkpoint.pt*, and *config.json*. Please update all paths and information inside each config to point to the relevant storage locations
+```
+sbatch run_evluation.sh
+```
+
+
+Please reach out in case of any issues! 
 
 ## Citation
 ```
