@@ -42,7 +42,7 @@ Information about the testing splits, seen/unseen material configurations and ac
 ## Code
 Batch scripts for training and testing are available in the */code/batch_scripts/* folder
 
-Model checkpoints can be made available upon request (will be coming soon!)
+Model checkpoints can be downloaded from [this link.](https://tinyurl.com/mw7cdu5h). 
 
 ###### Training
 1. Please set all relevant information, paths and variables in the /code/config_training
